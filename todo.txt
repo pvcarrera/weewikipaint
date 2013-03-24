@@ -15,7 +15,6 @@ Uset Stories
 - client-side testing
 
 Engineering Tasks:
-- static code ananlysis (Lint)
 - continuous integration
 - server-side testing
 - client-side testing

@@ -3,6 +3,7 @@
 (function() {
     "use strict";
 
+    desc('Build and test');
     task('default', ['lint']);
 
     desc('Lint everything');
@@ -13,6 +14,11 @@
         files.exclude("node_modules");
 
         lint.validateFileList(files.toArray(), nodeLintOptions(), {});
+    });
+
+    desc('Integrate');
+    task('integrate', ['default'], function(){
+        console.log("Integration code goes here");
     });
 
     function nodeLintOptions() {
