@@ -1,0 +1,17 @@
+Wee Wiki Paint
+
+Minimum marketing features
+* marketing home page
+- colavorative painting page (very basic)
+- wiki-fy the pages
+- more complex painting?
+- more colaborative features?
+
+Uset Stories
+* "hello world" server
+- static code ananlysis (Lint)
+- "hello world" client(one browser)
+- continuos integration
+- server-side testing
+- client-side testing
+
