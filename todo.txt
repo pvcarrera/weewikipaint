@@ -15,7 +15,8 @@ Uset Stories
 - client-side testing
 
 Engineering Tasks:
-- server-side testing
+* server-side testing
 - client-side testing
 
+To Do on current task:
 
