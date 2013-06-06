@@ -15,7 +15,6 @@ Uset Stories
 - client-side testing
 
 Engineering Tasks:
-- continuous integration
 - server-side testing
 - client-side testing
 
