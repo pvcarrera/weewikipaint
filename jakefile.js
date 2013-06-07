@@ -4,7 +4,7 @@
     "use strict";
 
     desc('Build and test');
-    task('default', ['lint']);
+    task('default', ["lint", "test"]);
 
     desc('Lint everything');
     task ('lint',[], function (params) {
@@ -15,6 +15,11 @@
 
         var passed = lint.validateFileList(files.toArray(), nodeLintOptions(), {});
         if(!passed) fail("Lint failed!");
+    });
+
+    desc('Test everything');
+    task('test', [], function(){
+        console.log("Test goes here");
     });
 
     desc('Integrate');
