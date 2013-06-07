@@ -19,7 +19,8 @@
 
     desc('Test everything');
     task('test', [], function(){
-        console.log("Test goes here");
+        var reporter =require("nodeunit").reporters["default"];
+        reporter.run(['test']);
     });
 
     desc('Integrate');
