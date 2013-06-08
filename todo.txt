@@ -20,3 +20,5 @@ Engineering Tasks:
 
 To Do on current task:
 
+Future ideas:
+- Abstract test framework?
