@@ -22,3 +22,6 @@ To Do on current task:
 
 Future ideas:
 - Abstract test framework?
+
+Notes:
+- NodeUnit doesn't work properly on windows
