@@ -6,7 +6,7 @@ var server = http.createServer();
 exports.start = function(){
 
   server.on("request", function(request, response){
-    response.end();
+    response.end("Hello World");
   });
 
   server.listen(8080);
