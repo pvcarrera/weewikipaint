@@ -3,13 +3,13 @@
 var http = require("http");
 var server = http.createServer();
 
-exports.start = function(){
+exports.start = function(portNumber){
 
   server.on("request", function(request, response){
     response.end("Hello World");
   });
 
-  server.listen(8080);
+  server.listen(portNumber);
 };
 
 exports.stop = function(callback){
