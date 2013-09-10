@@ -20,6 +20,7 @@ Engineering Tasks:
 To Do on current task:
 
 Future ideas:
+- Create fail fast assertion code
 - Abstract test framework?
 
 Notes:

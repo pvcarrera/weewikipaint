@@ -4,6 +4,7 @@ var http = require("http");
 var server = http.createServer();
 
 exports.start = function(portNumber){
+  if(!portNumber) throw new Error("port number is required");
 
   server.on("request", function(request, response){
     response.end("Hello World");
