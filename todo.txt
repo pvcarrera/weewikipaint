@@ -8,14 +8,13 @@ Minimum marketing features
 - more colaborative features?
 
 Uset Stories
-* "hello world" server
-- "hello world" client(one browser)
-- continuos integration
-- server-side testing
-- client-side testing
+* Server a one-file home page
+- Sever 404 errors for everything else
+- Marketing copy
+- Publiosh to internet
 
 Engineering Tasks:
-- Serve a file
+* Serve a file
 
 To Do on current task:
 
